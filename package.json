@@ -1,15 +1,19 @@
 {
   "name": "picklerick-hooks",
   "version": "1.0.0",
-  "description": "pickle rick package for webhook management",
+  "description": "Easily create Discord Webhooks & create fallbacks using Discord.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CurvingSphinx4/pickle-rick-webhooks.git"
+    "url": "git+https://github.com/CurvingSphinx4/pickle-rick-webhooks.git"
   },
   "author": "curvingsphinx4",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CurvingSphinx4/pickle-rick-webhooks/issues"
+  },
+  "homepage": "https://github.com/CurvingSphinx4/pickle-rick-webhooks#readme"
 }
