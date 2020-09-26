@@ -29,12 +29,12 @@ module.exports = async function(channel, message, options) {
             resolve(callback);
         }
 
-        if (!channel) return console.log('Pickle Rick Hooks: Please specify the channel.')
+        if (!channel) return console.log('WEBHOOKS: Please read the NPM page for documentation.')
 
         channel = channel.channel || channel;
 
-        if (!channel.send || !channel.fetchWebhooks) return console.log('Pickle Rick Hooks: Invalid Channel.');
-        if (!message) return console.log('Pickle Rick Hooks: Invalid Message.');
+        if (!channel.send || !channel.fetchWebhooks) return console.log('WEBHOOKS: Invalid Channel.');
+        if (!message) return console.log('WEBHOOKS: Invalid Message.');
 
         if (!options) options = {};
         options = {
@@ -53,14 +53,14 @@ module.exports = async function(channel, message, options) {
         });
         if(sent) return;
 
-        let hook = webhooks.find(w => w.name === 'Pickle Rick')
+        let hook = webhooks.find(w => w.name === 'discord-webhooks')
         if (!hook) {
             try {
-                hook = await channel.createWebhook('Pickle Rick', {
+                hook = await channel.createWebhook('discord-webhooks', {
                     avatar: 'https://cdn.picklerick.tk/pickle_rick.png'
                 })
             } catch (err) {
-                hook = await channel.createWebhook('Pickle Rick', 'https://cdn.picklerick.tk/pickle_rick.png');
+                hook = await channel.createWebhook('discord-webhooks', 'https://cdn.picklerick.tk/pickle_rick.png');
             }
             return sendHook(hook, message, options)
         }
