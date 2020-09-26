@@ -57,10 +57,10 @@ module.exports = async function(channel, message, options) {
         if (!hook) {
             try {
                 hook = await channel.createWebhook('discord-webhooks', {
-                    avatar: 'https://cdn.picklerick.tk/pickle_rick.png'
+                    avatar: 'https://cdn.discordapp.com/embed/avatars/4.png'
                 })
             } catch (err) {
-                hook = await channel.createWebhook('discord-webhooks', 'https://cdn.picklerick.tk/pickle_rick.png');
+                hook = await channel.createWebhook('discord-webhooks', 'https://cdn.discordapp.com/embed/avatars/4.png');
             }
             return sendHook(hook, message, options)
         }
