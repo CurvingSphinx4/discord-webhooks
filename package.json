@@ -1,17 +1,17 @@
 {
   "name": "@picklerickdev/discord-webhooks",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Easily create Discord Webhooks & create fallbacks using Discord.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CurvingSphinx4/discord-webhooks.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "author": "curvingsphinx4",
   "license": "MIT",
