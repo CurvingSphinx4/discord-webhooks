@@ -1,1 +1,1 @@
-# Pickle Rick Webhooks Manager 
+# Discord Webhooks Manager 
