@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/CurvingSphinx4/pickle-rick-webhooks.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "author": "curvingsphinx4",
   "license": "MIT",
   "bugs": {
