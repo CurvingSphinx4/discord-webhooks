@@ -11,7 +11,7 @@
     "url": "git+https://github.com/CurvingSphinx4/discord-webhooks.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "author": "curvingsphinx4",
   "license": "MIT",
