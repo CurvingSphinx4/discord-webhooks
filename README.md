@@ -20,3 +20,47 @@ message | `string` **or** `embed` | false | *none* | The message or embed to sen
 options | `object` | true | *none* | The options for the webhook
 options.name | `string` | true | Package Name | The title of the webhook
 options.icon | `iconURL` | true | *Webhook Icon* | The icon of the webhook
+
+## Example: Code
+
+---
+
+Normal Message
+
+```js
+    let hook = require('@picklerickdev/discord-webhooks')
+    hook(message.channel, 'Hello', {
+        name: 'Discord Webhook',
+        icon: 'https://i.imgur.com/X9eAmHm.png'
+    })
+```
+
+Embed
+
+```js
+    let hook = require('@picklerickdev/discord-webhooks')
+    const embed = new Discord.MessageEmbed()
+        .setColor('BLUE')
+        .setTitle('Discord Webhook')
+        .setDescription('This is a Discord Webhook')
+
+    hook(message.channel, embed, {
+        name: 'Discord Webhook',
+        icon: 'https://i.imgur.com/X9eAmHm.png'
+    })
+```
+
+## Example: Results
+---
+Message Webhook
+
+<div align='left'>
+    <img src='https://cdn.picklerick.tk/webhooks/message.png' alt='message-webhook'/>
+</div>
+
+---
+Embed Webhook
+
+<div align='left'>
+    <img src='https://cdn.picklerick.tk/webhooks/embed.png' alt='message-webhook'/>
+</div>
