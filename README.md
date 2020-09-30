@@ -58,7 +58,6 @@ Message Webhook
     <img src='https://cdn.picklerick.tk/webhooks/message.png' alt='message-webhook'/>
 </div>
 
----
 Embed Webhook
 
 <div align='left'>
