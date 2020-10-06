@@ -8,7 +8,7 @@
 
 <div align='center'>
     <p>
-        <img src="https://discord.c99.nl/widget/theme-1/511511769034784768.png"/>
+        <img src="https://discord.c99.nl/widget/theme-2/511511769034784768.png"/>
     </p>
 </div>
 
