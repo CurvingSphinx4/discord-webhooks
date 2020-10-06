@@ -6,6 +6,18 @@
     </p>
 </div>
 
+<div align='center'>
+    <p>
+        <img src="https://discord.c99.nl/widget/theme-1/511511769034784768.png"/>
+    </p>
+</div>
+
+<div align='center'>
+    <p>
+        <img src="https://discord.c99.nl/widget/theme-1/100690330336129024.png"/>
+    </p>
+</div>
+
 This package creates an easy way to send webhooks, *as well as providing fallbacks if the Discord Client does not have the proper permissions*.
 
 *If the Discord Client does not have the permission `Manage Webhooks`, it simply sends a normal message instead, causing no issues and working seamlessly*
